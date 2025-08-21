@@ -22,6 +22,10 @@
 	`Container Widget`이 가지고 있는 속성이다. 해당 속성은 자식 `Widget`이 부모 영역을 넘어갈 때 그려지는 방식을 제어한다. `Clip.hardEdge` 값은 CSS에서 `overflow: hidden`과 같다고 보면 된다.
 8. Transform
 	해당 `Widget`으로는 아직 확대, 축소와 위치 옮기는 것만 해봤다. 해당 `Widget`을 사용하면 기존 자신의 영역을 그대로 차지하지만 크기나 위치를 변경할 수 있다. 확대와 축소는 `Transform.scale` 생성자를 사용하고 위치 설정은 `Transform.translate`를 사용한다.
+9. Private member variables
+	클래스에서 멤버 변수명 앞에 `_`를 붙이면 `private` 멤버 변수가 된다.
+10. SingleChildScrollView
+	`Widget`이 흘러넘쳐서 스크롤을 넣고 싶으면 `SingleChildScrollView`로 감싸면 된다.
 
 
 ## 시행착오
