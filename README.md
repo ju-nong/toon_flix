@@ -26,6 +26,8 @@
 	클래스에서 멤버 변수명 앞에 `_`를 붙이면 `private` 멤버 변수가 된다.
 10. SingleChildScrollView
 	`Widget`이 흘러넘쳐서 스크롤을 넣고 싶으면 `SingleChildScrollView`로 감싸면 된다.
+11. StatefulWidget, setState
+	`StatefulWidget`은 상태 값을 가지고 그 값이 변경 됨에 따라 다시 렌더링을 해준다. 다시 렌더링을 해주기 위해선 `setState` 함수를 사용하는데, 단순히 해당 함수를 호출하면 해당 `Widget` 내에 있는 `build` 메소드를 재실행한다. `setState`	함수 내에 실행문도 작성할 수 있으며, 해당 실행문이 다 끝난 이후에 `build` 메소드가 재실행되는 형식이다.
 
 
 ## 시행착오
